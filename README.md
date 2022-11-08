@@ -8,7 +8,8 @@ Besides being a medium for entertainment, music is an incredible and powerful la
 1. After downloading our two files from Kaggle, we imported them into jupyter notebook and created data frames using pandas.
 Subsequently, we performed a cleaning procedure involving identifying data errors and removing columns not used in our analysis; we also eliminated any empty cells. This phase aims to improve the quality of the data and to have more accurate, consistent and reliable information for the continuation of the project.
 
-2. 
+2. After transforming the data, using SQL Alchemy, we built a connection between Jupyter notebook and PostgreSQL, where we had previously created a database and two tables to hold our data.
+The choice of Postgres was because our two tables have a comune column for which a relational database was ideal.
 
 ## Data analysis
 
