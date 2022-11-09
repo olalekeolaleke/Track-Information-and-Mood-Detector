@@ -17,12 +17,14 @@ The choice of Postgres was because our two tables have a comune column for which
 ## Data analysis
 ### In the Analysis.ipynb file
 
-In this part of our project, we selected nine features from our dataset to conduct our analysis on Spotify music and displayed a statistic summary to summarise and provide a gist of information about our dataset. 
+1. In this part of our project, we selected nine features from our dataset to conduct our analysis on Spotify music and displayed a statistic summary to summarise and provide a gist of information about our dataset. 
 We then displayed the correlations between each selected feature which led us to plot our data's heatmap.
 ![](image/heatmap.png)
 
-* In the heatmap, the positive value means that the two attributes have positive correlation between them
-* The colors are darker or lighter based on the correletion value inside our interval (-1,1)
+      * In the heatmap, the positive value means that the two attributes have positive correlation between them
+      * The colors are darker or lighter based on the correletion value inside our interval (-1,1)
+2. We then used Seaborn Pairplot that allows us to plot pairwise relationships between our selected features within a dataset. This creates a nice visualisation and helps us understand the data by summarising a large amount of data in a single figure. This is essential when we are exploring our dataset and trying to become familiar with it.
+![](image/pairplot.png)
 
 # Tableau visualization
 
