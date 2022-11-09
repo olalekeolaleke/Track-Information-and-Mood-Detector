@@ -42,6 +42,7 @@ https://public.tableau.com/app/profile/kouam.kouassi/viz/My_song_oracle/top10pop
 
 ## Prediction Process and codes
 ### In the Prediction.ipynb file
+This file contains our machine learning and neural network models applied in the song mood prediction.
 
 
 ## 📚 Dataset Sources:
