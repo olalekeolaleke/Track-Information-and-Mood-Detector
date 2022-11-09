@@ -28,6 +28,16 @@ We then displayed the correlations between each selected feature which led us to
 
 3. We also displayed an histogram of each selected features showing the distrubition of the selected features
 # Tableau visualization
+With tableau, se created few visualizations highlighting certain charateristics of our dataset. We managed to vizualise patterns such as:
+* The top 10 popular artists
+* The top popular songs
+* Acousticness track count and percentage per mood
+* Danceability track count and percentage per mood
+* Amount of tracks per decade of release considering the mood
+* Top 10 popular track per mood
+
+Click the link to see the tableau workbook 
+https://public.tableau.com/app/profile/kouam.kouassi/viz/My_song_oracle/top10populartrackpermood
 
 
 ## Prediction Process and codes
