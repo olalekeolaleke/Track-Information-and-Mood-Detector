@@ -22,10 +22,13 @@ We then displayed the correlations between each selected feature which led us to
 ![](image/heatmap.png)
 
       * In the heatmap, the positive value means that the two attributes have positive correlation between them
-      * The colors are darker or lighter based on the correletion value inside our interval (-1,1)
-2. We then used Seaborn Pairplot that allows us to plot pairwise relationships between our selected features within a dataset. This creates a nice visualisation and helps us understand the data by summarising a large amount of data in a single figure. This is essential when we are exploring our dataset and trying to become familiar with it.
+      * The colors are darker or lighter based on the correletion value inside our interval (-1,1). 
+2. We then used Seaborn Pairplot that allows us to plot pairwise relationships between our selected features with the track mood. This creates a nice visualisation and helps us understand the data by summarising a large amount of data in a single figure. This is essential when we are exploring our dataset and trying to become familiar with it. In the figure, we can see all our variables shown along the y and x axis. Along the diagonal we have a kernel density estimate(KDE) showing the clustering of each of the variables considering the mood.  
 ![](image/pairplot.png)
 
+
+
+3. We also displayed an histogram 
 # Tableau visualization
 
 
