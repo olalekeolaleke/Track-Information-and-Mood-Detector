@@ -21,6 +21,9 @@ In this part of our project, we selected nine features from our dataset to condu
 We then displayed the correlations between each selected feature which led us to plot our data's heatmap.
 ![](image/heatmap.png)
 
+* In the heatmap, the positive value means that the two attributes have positive correlation between them
+* The colors are darker or lighter based on the correletion value inside our interval (-1,1)
+
 # Tableau visualization
 
 
