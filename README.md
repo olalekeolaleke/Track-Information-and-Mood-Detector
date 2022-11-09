@@ -13,6 +13,9 @@ The choice of Postgres was because our two tables have a comune column for which
 
 ## Data analysis
 
+In this part of our project, we selected nine features from our dataset to conduct our analysis on Spotify music and displayed a statistic summary to summarise and provide a gist of information about our dataset. 
+We then displayed the correlations between each selected feature which led us to plot our data's heatmap.
+
 ## Prediction Process and codes
 
 
