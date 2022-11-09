@@ -26,9 +26,7 @@ We then displayed the correlations between each selected feature which led us to
 2. We then used Seaborn Pairplot that allows us to plot pairwise relationships between our selected features with the track mood. This creates a nice visualisation and helps us understand the data by summarising a large amount of data in a single figure. This is essential when we are exploring our dataset and trying to become familiar with it. In the figure, we can see all our variables shown along the y and x axis. Along the diagonal we have a kernel density estimate(KDE) showing the clustering of each of the variables considering the mood.  
 ![](image/pairplot.png)
 
-
-
-3. We also displayed an histogram 
+3. We also displayed an histogram of each selected features showing the distrubition of the selected features
 # Tableau visualization
 
 
