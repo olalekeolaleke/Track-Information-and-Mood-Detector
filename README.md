@@ -13,11 +13,13 @@ Subsequently, we performed a cleaning procedure involving identifying data error
 The choice of Postgres was because our two tables have a comune column for which a relational database was ideal.
 
 ## Data analysis
+### In the Analysis.ipynb file
 
 In this part of our project, we selected nine features from our dataset to conduct our analysis on Spotify music and displayed a statistic summary to summarise and provide a gist of information about our dataset. 
 We then displayed the correlations between each selected feature which led us to plot our data's heatmap.
 
 ## Prediction Process and codes
+### In the Prediction.ipynb file
 
 
 ## 📚 Dataset Sources:
