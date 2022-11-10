@@ -55,15 +55,15 @@ For this purpose, we have conducted this pre-processing process:
 
 ### Machine learning
 
-* Normalize our selected categories using the MinMaxScaler to scale the values in a range of [0,1] while preserving the constitution of the initial data.
-* Coded our four mood categories because machine learning and neural network use numerical values to train and test.
-* Created two machine learning models: logistic regression and random forest. These 2 Supervised learning models involve learning a function that maps an input to an output based on example input-output pairs.
+* We normalized our selected categories using the MinMaxScaler to scale the values in a range of [0,1] while preserving the constitution of the initial data.
+* We encoded our four mood categories because machine learning and neural network use numerical values to train and test.
+* We created two machine learning models: logistic regression and random forest. These 2 Supervised learning models involve learning a function that maps an input to an output based on example input-output pairs.
 * We split the data by 80% for training and 20% for testing.
 * From the values of the test and train scores obtained from our two models, we observed that random forest model scores are higher than the scores obtained with the logistic regression model
 
 ### Neural Network
 
-* Used the library Keras to enable fast experimentation with Deep Neural Networks.
+* We used the library Keras to enable fast experimentation with Deep Neural Networks.
 * Our main goal is to classify tracks in the 4 categories of moods (Calm, Energetic, Happy and Sad), so my model consists of a Multi-Class Neural Network with an input of 10 Features, 1 Layer with 8 nodes, and 4 outputs with the output Layer.
 * KerasClassifier is used as estimator in this case  
 * We then evaluated the NN model using K-Fold Cross Validation, with which we evaluated our estimator using the train data.
