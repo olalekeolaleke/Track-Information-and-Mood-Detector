@@ -50,6 +50,28 @@ https://public.tableau.com/app/profile/kouam.kouassi/viz/My_song_oracle/top10pop
 ### In the Prediction.ipynb file
 This file contains our machine learning and neural network models applied in the song mood prediction.
 
+The project's ultimate goal is to predict the mood of the songs by creating a process thanks to machine learning and neural network.
+For this purpose, we have conducted this pre-processing process:
+
+### Machine learning
+
+* Normalize our selected categories using the MinMaxScaler to scale the values in a range of [0,1] while preserving the constitution of the initial data.
+* Coded our four mood categories because machine learning and neural network use numerical values to train and test.
+* Created two machine learning models: logistic regression and random forest. These 2 Supervised learning models involve learning a function that maps an input to an output based on example input-output pairs.
+* We split the data by 80% for training and 20% for testing.
+* From the values of the test and train scores obtained from our two models, we observed that random forest model scores are higher than the scores obtained with the logistic regression model
+
+### Neural Network
+
+* Used the library Keras to enable fast experimentation with Deep Neural Networks.
+* Our main goal is to classify tracks in the 4 categories of moods (Calm, Energetic, Happy and Sad), so my model consists of a Multi-Class Neural Network with an input of 10 Features, 1 Layer with 8 nodes, and 4 outputs with the output Layer.
+* KerasClassifier is used as estimator in this case  
+* We then evaluated the NN model using K-Fold Cross Validation, with which we evaluated our estimator using the train data.
+* It is important to note that in this phase, the K = 10 is the number of splits of the mixed values.
+* We evaluate the accuracy of the Multi-class neural network by building a confusion matrix using the Seaborn library and Matplotlib.
+* With a Final Accuracy score of 77% and looking at the Confusion Matrix, our model is good at classifying Calm and Sad songs. However, we had some issues dealing with Happy songs, while energetic songs are quite well classified.
+* The project can be improved by modifying parameters such as the epochs and eliminating some track features.
+
 
 ## 📚 Dataset Sources:
 
