@@ -27,6 +27,12 @@ We then displayed the correlations between each selected feature which led us to
 ![](image/pairplot.png)
 
 3. We also displayed an histogram of each selected features showing the distrubition of the selected features
+4. The word cloud below displays the artists based on their popularity. We were able to create this visualisation by converting our original <br>
+DataFrame into a dictionary. The size of the names reflects the frequency they appear in the dataset.
+![](image/wordcloud.png)
+
+
+
 # Tableau visualization
 With tableau, se created few visualizations highlighting certain charateristics of our dataset. We managed to vizualise patterns such as:
 * The top 10 popular artists
