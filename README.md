@@ -33,7 +33,7 @@ DataFrame into a dictionary. The size of the names reflects the frequency they a
 
 
 
-# Tableau visualization
+## Tableau visualization
 With tableau, se created few visualizations highlighting certain charateristics of our dataset. We managed to vizualise patterns such as:
 * The top 10 popular artists
 * The top popular songs
@@ -46,7 +46,7 @@ Click the link to see the tableau workbook
 https://public.tableau.com/app/profile/kouam.kouassi/viz/My_song_oracle/top10populartrackpermood
 
 
-## Prediction Process and codes
+## Prediction Process
 ### In the Prediction.ipynb file
 This file contains our machine learning and neural network models applied in the song mood prediction.
 
