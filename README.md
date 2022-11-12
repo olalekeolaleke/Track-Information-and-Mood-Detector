@@ -28,8 +28,15 @@ We then displayed the correlations between each selected feature which led us to
 ![](image/pairplot.png)
 
 3. We also displayed an histogram of each selected features showing the distrubition of the selected features
+
+![hist](https://user-images.githubusercontent.com/105587442/201463411-fb8bb0ac-3f9f-4285-9b67-c881dc37fff8.png)
+
 4. The word cloud below displays the artists based on their popularity. We were able to create this visualisation by converting our original <br>
 DataFrame into a dictionary. The size of the names reflects the frequency they appear in the dataset.
+
+![wordcloud](https://user-images.githubusercontent.com/105587442/201463414-8cfce600-289c-47fe-a29a-0e4d287afab5.png)
+
+![mean_auido](https://user-images.githubusercontent.com/105587442/201463416-65bd9c4d-5367-43a5-bc2a-d4a0a70af0de.png)
 
 
 
