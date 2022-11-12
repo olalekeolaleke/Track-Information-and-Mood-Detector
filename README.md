@@ -58,7 +58,7 @@ For this purpose, we have conducted this pre-processing process:
 
 * We normalized our selected categories using the MinMaxScaler to scale the values in a range of [0,1] while preserving the constitution of the initial data.
 * We encoded our four mood categories because machine learning and neural network use numerical values to train and test.
-* We created two machine learning models: logistic regression and random forest. These 2 Supervised learning models involve learning a function that maps an input to an output based on example input-output pairs.
+* We used 2 Multi Class Classification Models "K-NN and random forest" to evaluate the accuracy of the dataset we are using for the mood prediction.
 * We split the data by 80% for training and 20% for testing.
 * From the values of the test and train scores obtained from our two models, we observed that random forest model scores are higher than the scores obtained with the logistic regression model
 
