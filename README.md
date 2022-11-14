@@ -18,7 +18,7 @@ The choice of Postgres was because our two tables have a comune column for which
 ![](image/dbconn.png)
 
 ## Data analysis
-### In the Analysis.ipynb file <a https://github.com/radoo945/Ushuaia-4/blob/main/analysis.ipynb">Click here</a>
+### In the Analysis.ipynb file <a href ="https://github.com/radoo945/Ushuaia-4/blob/main/analysis.ipynb"> Click here</a>
 
 1. In this part of our project, we selected nine features from our dataset to conduct our analysis on Spotify music and displayed a statistic summary to summarise and provide a gist of information about our dataset. 
 We then displayed the correlations between each selected feature which led us to plot our data's heatmap.
@@ -57,7 +57,7 @@ https://public.tableau.com/app/profile/kouam.kouassi/viz/My_song_oracle/top10pop
 
 
 ## Prediction Process
-### In the Prediction.ipynb file <a https://github.com/radoo945/Ushuaia-4/blob/main/prediction.ipynb">Click here</a>
+### In the Prediction.ipynb file <a href ="https://github.com/radoo945/Ushuaia-4/blob/main/prediction.ipynb">Click here</a>
 This file contains our machine learning and neural network models applied in the song mood prediction.
 
 The project's ultimate goal is to predict the mood of the songs by creating a process thanks to machine learning and neural network.
