@@ -63,7 +63,7 @@ This file contains our machine learning and neural network models applied in the
 The project's ultimate goal is to predict the mood of the songs by creating a process thanks to machine learning and neural network.
 For this purpose, we have conducted this pre-processing process:
 
-### Machine learning
+#### Machine learning
 
 * We normalized our selected categories using the MinMaxScaler to scale the values in a range of [0,1] while preserving the constitution of the initial data.
 * We encoded our four mood categories because machine learning and neural network use numerical values to train and test.
@@ -71,7 +71,7 @@ For this purpose, we have conducted this pre-processing process:
 * We used 2 Multi Class Classification Models "K-NN and random forest" to evaluate the accuracy of the dataset we are using for the mood prediction.
 * From the values of the test and train scores obtained from our two models, we observed that random forest model scores are higher than the scores obtained with the logistic regression model
 
-### Neural Network
+#### Neural Network
 
 * We used the library Keras to enable fast experimentation with Deep Neural Networks.
 * Our main goal is to classify tracks in the 4 categories of moods (Calm, Energetic, Happy and Sad), so my model consists of a Multi-Class Neural Network with an input of 10 Features, 1 Layer with 8 nodes, and 4 outputs with the output Layer.
