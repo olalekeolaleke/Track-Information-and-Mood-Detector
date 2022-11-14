@@ -8,7 +8,7 @@ For our project, we expose and explain how we could achieve the prediction using
 Find more about music mood classification <a href="https://sites.tufts.edu/eeseniordesignhandbook/2015/music-mood-classification/">here</a> 
 
 ## ETL process
-### In the transfromation.ipynb file
+### In the transfromation.ipynb file <a href="https://github.com/radoo945/Ushuaia-4/blob/main/transformation.ipynb">Click here</a> 
 1. After downloading our two files from Kaggle, we imported them into jupyter notebook and created data frames using pandas.
 Subsequently, we performed a cleaning procedure involving identifying data errors and removing columns not used in our analysis; we also eliminated any empty cells. This phase aims to improve the quality of the data and to have more accurate, consistent and reliable information for the continuation of the project.
 ![](/image/transformation.png)
@@ -18,7 +18,7 @@ The choice of Postgres was because our two tables have a comune column for which
 ![](image/dbconn.png)
 
 ## Data analysis
-### In the Analysis.ipynb file
+### In the Analysis.ipynb file <a https://github.com/radoo945/Ushuaia-4/blob/main/analysis.ipynb">Click here</a>
 
 1. In this part of our project, we selected nine features from our dataset to conduct our analysis on Spotify music and displayed a statistic summary to summarise and provide a gist of information about our dataset. 
 We then displayed the correlations between each selected feature which led us to plot our data's heatmap.
@@ -57,7 +57,7 @@ https://public.tableau.com/app/profile/kouam.kouassi/viz/My_song_oracle/top10pop
 
 
 ## Prediction Process
-### In the Prediction.ipynb file
+### In the Prediction.ipynb file <a https://github.com/radoo945/Ushuaia-4/blob/main/prediction.ipynb">Click here</a>
 This file contains our machine learning and neural network models applied in the song mood prediction.
 
 The project's ultimate goal is to predict the mood of the songs by creating a process thanks to machine learning and neural network.
